@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.toolbar {
+  background-color: rebeccapurple;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+#editor {
+  width: 90vw;
+  height: 50vh;
+}
+#preview {
+  width: 90vw;
+  border: 2px solid;
+}
+img {
+  max-width: 90%;
+}
+body {
+  background-color: antiquewhite;
+}
